@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Rezervasyon Sonucu</title>
+</head>
+<body>
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    document.write("<h2>Rezervasyon Alındı!</h2>");
+    document.write("<p>İsim: " + params.get("isim") + "</p>");
+    document.write("<p>E-posta: " + params.get("email") + "</p>");
+    document.write("<p>Gidilecek Yer: " + params.get("yer") + "</p>");
+  </script>
+</body>
+</html>

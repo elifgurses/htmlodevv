@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>İletişim Cevap</title>
+</head>
+<body>
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    document.write("<h2>Mesajınız Alındı!</h2>");
+    document.write("<p>Adınız Soyadınız: " + params.get("name") + "</p>");
+    document.write("<p>E-posta: " + params.get("email") + "</p>");
+    document.write("<p>Mesajınız: " + params.get("message") + "</p>");
+  </script>
+</body>
+</html>
