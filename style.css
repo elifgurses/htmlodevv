@@ -1,0 +1,117 @@
+
+body {
+  font-family: cursive;
+  margin: 0;
+  padding: 0;
+  background-color: #feffbe;
+  color: #333;
+  line-height: 1.6;
+   text-align: center;
+ 
+}
+
+
+header {
+  background-color: #d9ff00;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+h1{color: #ff8717;}
+nav {
+  margin-top: 10px;
+  color: white;
+}
+
+img{height: 400px;
+width: 750px;}
+
+
+section {
+  max-width: 1000px;
+  margin: 20px auto;
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+section h2 {
+  color: #0099ff;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 8px;
+  margin-bottom: 15px;
+}
+
+
+
+ul {
+  color: #000000;
+   list-style-type: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+input, textarea, select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+input[type="submit"], button {
+  background-color: #1e90ff;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+input[type="submit"]:hover, button:hover {
+  background-color: #fffb00;
+}
+
+
+#result {
+  margin-top: 20px;
+  font-weight: bold;
+  color: darkblue;
+}
+
+table {
+      width: 60%;
+      margin: auto;
+      border-collapse: collapse;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    th, td {
+      padding: 12px;
+      border: 1px solid #ccc;
+      text-align: center;
+    }
+    th {
+      background-color: #0066cc;
+      color: white;
+    }

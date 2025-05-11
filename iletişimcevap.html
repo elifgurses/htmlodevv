@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>İletişim Cevap</title>
+</head>
+<body>
+   <style>body {
+  font-family: cursive;
+  margin: 0;
+  padding: 0;
+  background-color: #feffbe;
+  color: #333;
+  line-height: 1.6;
+   text-align: center;
+  }
+  footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+}
+section h2 {
+  color: #ff8717;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 8px;
+  margin-bottom: 15px;
+}</style>
+<section>
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    document.write("<h2>Mesajınız Alındı!</h2>");
+    document.write("<p>Adınız Soyadınız: " + params.get("name") + "</p>");
+    document.write("<p>E-posta: " + params.get("email") + "</p>");
+    document.write("<p>Mesajınız: " + params.get("message") + "</p>");
+  </script></section>
+  <footer>
+    <p>&copy; 2025 DreamTravel. Tüm hakları saklıdır.</p>
+  </footer>
+</body>
+</html>

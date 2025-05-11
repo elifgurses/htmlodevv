@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Rezervasyon Tablosu</title>
+
+</head>
+<body>
+
+  <link rel="stylesheet" href="style.css">
+  <section><h1>DREAM TREVAL</h1>
+    <nav>
+      <a href="index.html">Ana Sayfa</a> |
+      <a href="hakkımızda.html">Hakkımızda</a> |
+      <a href="iletişimf.html">İletişim</a> |
+      <a href="gidilecekyer.html">Gezi Yerleri </a> |
+      <a href="rezervasyon.html">Rezervasyon</a> |
+      <a href="map.html">Harita</a>|
+      <a href="Öneri.html">Önerimiz</a>
+      
+    </nav><br>
+      <nav>
+   <a href="afrika.html">Afrika</a>|
+            <a href="asya.html">Asya</a>|
+            <a href="avrupa.html">Avrupa</a>|
+            <a href="kamerika.html">Kuzey Amerika</a>|
+            <a href="gamerika.html">Güney Amerika</a>|
+            <a href="okyanusya.html">Okyanusya</a></nav></section> </section>
+  <section>
+<section>
+ <header><h1>Rezervasyon Bilgileri</h1></header>
+
+  <table>
+    <thead>
+      <tr>
+        <th>İsim</th>
+        <th>E-posta</th>
+        <th>Gideceği Yer</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td id="isim"></td>
+        <td id="email"></td>
+        <td id="yer"></td>
+      </tr>
+    </tbody>
+  </table></section>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    document.getElementById("isim").textContent = params.get("isim") || "Yok";
+    document.getElementById("email").textContent = params.get("email") || "Yok";
+    document.getElementById("yer").textContent = params.get("yer") || "Yok";
+  </script>
+
+</body>
+</html>
+
+ 
