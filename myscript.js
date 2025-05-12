@@ -20,10 +20,3 @@
 
 
 
-// URL parametrelerini oku
-const params = new URLSearchParams(window.location.search);
-
-// HTML öğelerine yerleştir
-document.getElementById("isim").textContent = params.get("isim") || "Yok";
-document.getElementById("email").textContent = params.get("email") || "Yok";
-document.getElementById("yer").textContent = params.get("yer") || "Yok";
